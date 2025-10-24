@@ -18,9 +18,9 @@ to help people easily find their names.
 
 ## Installation
 
-Using `go get`:
+Using `go install`:
 
-    go get -u github.com/smallwat3r/name-tabler && mv $GOPATH/bin/name-tabler $GOPATH/bin/name-tabler
+    go install github.com/smallwat3r/name-tabler@latest
 
 Or, this util has no runtime dependencies, you can download a binary for your platform
 [here](https://github.com/smallwat3r/name-tabler/releases).
