@@ -20,7 +20,7 @@ to help people easily find their names.
 
 Using `go get`:
 
-        go get -u github.com/smallwat3r/name-tabler && mv $GOPATH/bin/name-tabler $GOPATH/bin/name-tabler
+    go get -u github.com/smallwat3r/name-tabler && mv $GOPATH/bin/name-tabler $GOPATH/bin/name-tabler
 
 Or, this util has no runtime dependencies, you can download a binary for your platform
 [here](https://github.com/smallwat3r/name-tabler/releases).
@@ -32,7 +32,7 @@ Or, this util has no runtime dependencies, you can download a binary for your pl
 
 2. Run the program to generate a PDF:
 
-	name-tabler
+        name-tabler
 
    By default, the PDF will contain:
    - 3 columns
@@ -41,27 +41,27 @@ Or, this util has no runtime dependencies, you can download a binary for your pl
 
 3. To customize the layout:
 
-	name-tabler -cols 2 -rows 5 -n-tab 6
+        name-tabler -cols 2 -rows 5 -n-tab 6
 
    The generated file will be saved as `names.pdf` in the current directory.
 
 4. Use `-h` to print all options:
 
-	name-tabler -h
+        name-tabler -h
 
    Output:
 
-	Usage of name-tabler:
-	  -cols int
-	        number of columns per page (>=1) (default 3)
-	  -file string
-	        path to input names file (default "names.txt")
-	  -n-tab int
-	        names per table cell (>=1) (default 5)
-	  -out string
-	        output PDF file (default "names.pdf")
-	  -rows int
-	        number of rows per page (>=1) (default 7)
+        Usage of name-tabler:
+        -cols int
+                number of columns per page (>=1) (default 3)
+        -file string
+                path to input names file (default "names.txt")
+        -n-tab int
+                names per table cell (>=1) (default 5)
+        -out string
+                output PDF file (default "names.pdf")
+        -rows int
+                number of rows per page (>=1) (default 7)
 
 ## Build and Packaging
 
